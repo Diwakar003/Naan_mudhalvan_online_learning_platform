@@ -1,0 +1,16 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore all .log files
+*.log
+
+# Ignore specific configuration files
+.env
+config.json
+
+# Ignore build directories
+/dist/
+/build/
+
+# Unignore a specific file in a directory
+!important_file.txt
